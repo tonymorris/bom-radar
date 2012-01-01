@@ -1,20 +1,20 @@
-Name:               Haskell-Package
+Name:               Bom-Radar
 Version:            0.0.1
 License:            BSD3
 License-File:       LICENSE
 Author:             Tony Morris <ʇǝu˙sıɹɹoɯʇ@ןןǝʞsɐɥ>
 Maintainer:         Tony Morris
 Copyright:          Tony Morris
-Synopsis:           A skeleton for creating haskell packages
-Category:           Development
-Description:        A skeleton for creating haskell packages
+Synopsis:           A library for retrieving BOM radar files
+Category:           Development, Network
+Description:        A library for retrieving Bureau of Meteorology (Australia) radar files
 Homepage:           https://github.com/tonymorris/haskell-package
 Cabal-Version:      >= 1.6
 Build-Type:         Simple
 
 Source-Repository   head
   Type:             git
-  Location:         git@github.com:tonymorris/haskell-package.git
+  Location:         git@github.com:tonymorris/bom-radar.git
 
 Flag                small_base
   Description:      Choose the new, split-up base package.
@@ -22,6 +22,7 @@ Flag                small_base
 Library
   Build-Depends:
                     base < 5 && >= 3
+                    , ftphs
 
   GHC-Options:
                     -Wall
