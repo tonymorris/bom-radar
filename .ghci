@@ -1,7 +1,7 @@
 :set -isrc
 :m + Test.QuickCheck
-:l M
-:m + M
+:l Network.Bom.Radar
+:m + Network.Bom.Radar
 :set prompt ">> "
 :set -Wall
 
