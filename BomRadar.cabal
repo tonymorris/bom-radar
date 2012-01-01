@@ -8,7 +8,7 @@ Copyright:          Tony Morris
 Synopsis:           A library for retrieving BOM radar files
 Category:           Development, Network
 Description:        A library for retrieving Bureau of Meteorology (Australia) radar files
-Homepage:           https://github.com/tonymorris/haskell-package
+Homepage:           https://github.com/tonymorris/bom-radar
 Cabal-Version:      >= 1.6
 Build-Type:         Simple
 
@@ -31,5 +31,5 @@ Library
                     src
 
   Exposed-Modules:
-                    M
+                    Network.Bom.Radar
 

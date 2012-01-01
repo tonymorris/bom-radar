@@ -1,4 +1,4 @@
-module M where
+module Network.Bom.Radar where
 
 add ::
   Int

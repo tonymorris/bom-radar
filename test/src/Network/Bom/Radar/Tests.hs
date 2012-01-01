@@ -1,4 +1,4 @@
-module M.Tests
+module Network.Bom.Radar.Tests
   (
     main
   , test
@@ -6,7 +6,7 @@ module M.Tests
 
 import Test.Framework
 import Test.Framework.Providers.QuickCheck2 (testProperty)
-import M
+import Network.Bom.Radar
 
 main :: 
   IO ()
@@ -16,7 +16,7 @@ main =
 test :: 
   Test
 test =
-    testGroup "M"
+    testGroup "Network.Bom.Radar"
       [
         testProperty "Right Identity" prop_right_identity
       ]
